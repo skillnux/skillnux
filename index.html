@@ -1,0 +1,198 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skillnux | Learn Digital Skills</title><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"><style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+
+body{
+    background:#05060a;
+    color:#fff;
+}
+
+.bg{
+    position:fixed;
+    inset:0;
+    background:
+      radial-gradient(circle at 20% 30%, #00ffb3 0%, transparent 40%),
+      radial-gradient(circle at 80% 70%, #6a00ff 0%, transparent 40%),
+      radial-gradient(circle at 50% 50%, #00b3ff 0%, transparent 45%);
+    filter:blur(90px);
+    z-index:-1;
+}
+
+.nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+}
+
+.brand{
+    font-size:1.8rem;
+    font-weight:700;
+    background:linear-gradient(90deg,#00ffb3,#00b3ff,#6a00ff);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.btn-nav{
+    padding:10px 22px;
+    border-radius:25px;
+    border:1px solid rgba(255,255,255,0.3);
+    background:transparent;
+    color:#fff;
+    cursor:pointer;
+}
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:20px;
+}
+
+.card{
+    max-width:900px;
+    background:rgba(255,255,255,0.04);
+    backdrop-filter: blur(18px);
+    border-radius:30px;
+    padding:80px 50px;
+    box-shadow:0 0 80px rgba(0,255,179,0.15);
+}
+
+.logo{
+    width:130px;
+    height:130px;
+    margin:0 auto 25px;
+    border-radius:50%;
+    background:linear-gradient(135deg,#00ffb3,#00b3ff,#6a00ff);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:72px;
+    font-weight:700;
+    color:#000;
+    box-shadow:0 0 35px rgba(0,255,179,0.6);
+}
+
+h1{
+    font-size:3.3rem;
+    background:linear-gradient(90deg,#00ffb3,#00b3ff,#6a00ff);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.tag{
+    margin-top:14px;
+    font-size:1.2rem;
+    color:#cfd6ff;
+}
+
+.desc{
+    margin:30px auto 45px;
+    max-width:650px;
+    color:#bfc7ff;
+    line-height:1.7;
+}
+
+.btns{
+    display:flex;
+    gap:18px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.btn-main{
+    padding:16px 36px;
+    border-radius:35px;
+    background:linear-gradient(135deg,#00ffb3,#00b3ff);
+    color:#000;
+    font-weight:600;
+    border:none;
+    cursor:pointer;
+    box-shadow:0 0 25px rgba(0,255,179,0.6);
+}
+
+.btn-sec{
+    padding:16px 36px;
+    border-radius:35px;
+    background:transparent;
+    color:#fff;
+    font-weight:600;
+    border:1px solid rgba(255,255,255,0.3);
+    cursor:pointer;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    margin-top:60px;
+}
+
+.feature{
+    background:rgba(255,255,255,0.03);
+    padding:25px;
+    border-radius:18px;
+    border:1px solid rgba(255,255,255,0.06);
+}
+
+.feature h3{
+    color:#00ffb3;
+    margin-bottom:10px;
+}
+
+.footer{
+    text-align:center;
+    padding:25px;
+    font-size:0.8rem;
+    color:#8c93ff;
+    opacity:0.7;
+}
+
+@media(max-width:600px){
+    h1{font-size:2.3rem;}
+    .card{padding:50px 25px;}
+}
+</style></head><body>
+<div class="bg"></div><div class="nav">
+    <div class="brand">Skillnux</div>
+    <button class="btn-nav">Coming Soon</button>
+</div><div class="hero">
+    <div class="card"><div class="logo">S</div>
+
+    <h1>Skillnux</h1>
+    <div class="tag">Future Skills for the Digital World</div>
+
+    <div class="desc">
+        Skillnux is a next-generation edtech platform focused on practical digital skills.
+        Learn real-world technology, build real projects, and grow into the future economy.
+    </div>
+
+    <div class="btns">
+        <button class="btn-main" onclick="alert('Platform launching soon 🚀')">Explore</button>
+        <button class="btn-sec" onclick="window.location.href='mailto:info@skillnux.com'">Contact</button>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <h3>Digital Skills</h3>
+            <p>AI, Web, Data, Cloud, Automation, Business Tech</p>
+        </div>
+        <div class="feature">
+            <h3>Practical Learning</h3>
+            <p>Projects, real tools, real workflows</p>
+        </div>
+        <div class="feature">
+            <h3>Future Careers</h3>
+            <p>Job-ready skills for digital economy</p>
+        </div>
+    </div>
+
+</div>
+
+</div><div class="footer">© 2026 Skillnux • Learn • Build • Grow</div></body>
+</html>
